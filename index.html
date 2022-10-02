@@ -1,252 +1,806 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" type="image/svg" href="./assets/favicon.svg">
-    <title>Noelle Gisewhite Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Noelle Gisewhite Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="Noelle Gisewhite Portfolio" />
+  <meta name="author" content="noelle gisewhite" />
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/animate.css" type="text/css">
+  <link rel="stylesheet" href="css/animations.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+
+  <script src="js/modernizr.custom.js"></script>
 </head>
-<!--============================ HEADER ============================-->
 
 <body>
-    <header id="welcome-hero">
-        <nav id="main-menu" class="menu__container">
-            <div class="logo__text"><a href="#home">N.</a></div>
-            <ul class="menu__text">
-                <li><a class="menu__text--link" href="#home">Home</a></li>
-                <li><a class="menu__text--link" href="#about-me">About</a></li>
-                <li><a class="menu__text--link" href="#portfolio">Portfolio</a></li>
-                <li><a class="menu__text--link" href="#work-history">Work History</a></li>
-                <!-- <li><a class="menu__text--link" href="#testimonials">Testimonials</a></li> -->
-                <li><a class="menu__button--link" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <section id="home" class="hero__container">
-            <div class="hero__container--block">
-                <h1 class="hero__title">Hi, I'm <span class="hero__title--span">Noelle</span></h1>
-                <h2 class="hero__subtitle">I Make The Web <span class="hero__subtitle--span">Pretty</span></h2>
-                <button class="hero__button"><a href="#contact">Let's Work Together!</a></button>
+  <!-- Loading animation -->
+  <div class="preloader">
+    <div class="preloader-animation">
+      <div class="preloader-spinner">
+      </div>
+    </div>
+  </div>
+  <!-- /Loading animation -->
+
+  <div id="page" class="page one-page-style">
+    <!-- Header -->
+    <header id="site_header" class="header mobile-menu-hide">
+      <div class="header-content clearfix">
+        <div class="my-photo">
+          <img src="images/NoelleCodes.png" alt="image">
+        </div>
+
+        <div class="site-title-block">
+          <div class="site-title">Noelle Gisewhite</div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="site-nav">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu">
+            <li>
+              <a class="pt-trigger" href="#about-me">About Me</a><!-- href value = data-id without # of .pt-page. -->
+            </li>
+            <li>
+              <a class="pt-trigger" href="#resume">Resume</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <!-- /Main menu -->
+        </div>
+        <!-- Navigation -->
+
+        <!-- Social Links -->
+        <div class="social-links">
+          <a href="https://github.com/noellegisewhite" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/noellegisewhite/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/noellecodes/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <!-- / Social Links -->
+
+        <!-- Copyrights -->
+        <div class="copyrights">© 2022 All rights reserved.</div>
+        <!-- / Copyrights -->
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Mobile Header -->
+    <div class="mobile-header mobile-visible">
+      <div class="mobile-logo-container">
+        <div class="mobile-header-image">
+          <a href="#">
+            <img src="images/NoelleCodes.png" alt="profile-picture">
+          </a>
+        </div>
+        <div class="mobile-site-title"><a href="#">Noelle Gisewhite</a></div>
+      </div>
+
+      <a class="menu-toggle mobile-visible">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- /Mobile Header -->
+
+    <!-- Arrows Nav -->
+    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Arrows Nav -->
+
+    <!-- Main Content -->
+    <div id="main" class="site-main">
+      <!-- Page changer wrapper -->
+      <div class="pt-wrapper">
+        <!-- Subpages -->
+        <div class="subpages">
+
+          <!-- Home Subpage -->
+          <section class="pt-page" id="about-me">
+            <div class="section-inner start-page-full-width">
+              <div class="start-page-full-width">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="inner-content">
+                      <div class="fill-block"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="inner-content">
+                      <div class="hp-text-block">
+                        <!-- Text rotation / Subtitle -->
+                        <div class="owl-carousel text-rotation">
+                          <!-- <div class="item">
+                              <div class="sp-subtitle">Web Designer</div>
+                            </div> -->
+                          <div class="item">
+                            <div class="sp-subtitle">Full Stack Java Developer</div>
+                          </div>
+                        </div>
+                        <!-- /Text rotation / Subtitle -->
+
+                        <h2 class="hp-main-title">Noelle Gisewhite</h2>
+                        <p>I lead teams and develop customer-centric solutions. I am a full stack Software Developer
+                          with a passion for web design. I over 8 years experience in Management and Customer Service.
+                        </p>
+                        <p><strong>Technical Inventory: </strong>Java, Spring Boot, React JS, Javascript, HTML, CSS, JSX, Thymeleaf</p>
+                        <p><strong>Technologies & Frameworks: </strong>Agile, Scrum, Axios, Git, Github, Json, Rest API, Spring, Node JS,
+                          Model View Controller (MVC), Test Driven Development (TDD), Object Oriented Programing (OOP),
+                          Wordpress, Shopify</p>
+                        <p><strong>Skills: </strong>Management, Training, Project Management, Customer Service, Responsive Design, Google
+                          Suite, Microsoft Office</p>
+                        <div class="hp-buttons">
+                          <a href="#" target="_blank" class="btn btn-primary">Download Resume</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        </section>
-        <!-- Why aren't we allowed to use FontAwesome Q.Q -->
-        <div class="contact__card--grid">
-            <div class="contact__card contact__card--one">
-                <img src="./assets/icon-linked.png" alt="" class="contact__card--image">
-                <h4 class="contact__card--text"><a href="https://www.linkedin.com/in/noellegisewhite/"
-                        target="_blank">LinkedIn</a></h4>
+
+            <div class="section-inner custom-page-content">
+              <div class="page-content">
+                <!-- Services Block Title -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="col-inner">
+                      <div class="block-title">
+                        <h3>What I Do</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Services Block Title -->
+
+                <!-- Services Block -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="col-inner">
+                      <div class="info-list-w-icon">
+                        <!-- Service Item 1 -->
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <i class="lnr lnr-laptop-phone"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Back End & Java Development</h4>
+                            <p>Experienced with Object Oriented Programing. Currently learning advanced data structures
+                              and algorithms as well as Python.</p>
+                          </div>
+                        </div>
+                        <!-- /Service Item 1 -->
+
+                        <!-- Service Item 2 -->
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <i class="lnr lnr-laptop-phone"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Front End Development</h4>
+                            <p>Experience with HTML/CSS and Javascript as well as React. I excel creating clean, user
+                              friendly designs that look great on any device.</p>
+                          </div>
+                        </div>
+                        <!-- Service Item 2 -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="col-inner">
+                      <div class="info-list-w-icon">
+                        <!-- Service Item 3 -->
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <i class="lnr lnr-pencil"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Design, Branding, and Marketing</h4>
+                            <p>I love designing logos, marketing materials and more to showcase on the web. I also offer
+                              SEO and digital marketing services. </p>
+                          </div>
+                        </div>
+                        <!-- Service Item 3 -->
+
+                        <!-- Service Item 4 -->
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <!-- <i class="lnr lnr-flag"></i> -->
+                            <i class="lnr lnr-store"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Wordpress & Shopify</h4>
+                            <p>I create custom brands for clients and fun! Currently learning PHP for custom
+                              Wordpress plugins as well as Shopify development for apps and themes.</p>
+                          </div>
+                        </div>
+                        <!-- Service Item 4 -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Services Block -->
+
+                <!-- Testimonials Block -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="col-inner ts-25 bs-50">
+                      <!-- Testimonials Block Title -->
+                      <div class="block-title">
+                        <h3>Reviews & Feedback<span></span></h3>
+                      </div>
+                      <!-- /Testimonials Block Title -->
+
+                      <!-- Testimonials Carousel Block -->
+                      <div class="testimonials owl-carousel">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-item">
+
+                          <!-- Testimonial Content -->
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>Really good stuff Noelle, you're killing it!!!! I like that you are challenging
+                                yourself with method extraction, sticking with DRY principles (Dont Repeat Yourself)
+                                with your method use (great skill you have already displayed!) and some tricky logic
+                                scenarios....this was a fun program!!!!</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial Content -->
+
+                          <!-- Testimonial Author -->
+                          <div class="testimonial-credits">
+                            <!-- Picture -->
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/alan.jpg" alt="Alan Kostrick" />
+                            </div>
+                            <!-- /Picture -->
+                            <!-- Testimonial author information -->
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">Alan Kostrick</p>
+                              <p class="testimonial-firm">Project Feedback - Java OOP</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                        </div>
+                        <!-- End of Testimonial 1 -->
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-item">
+
+                          <!-- Testimonial Content -->
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>The site is awesome! So generous - thank you so much this is a huge help! I'm excited
+                                to dig through everything you provided. Great work, excellent communication.</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial Content -->
+
+                          <!-- Testimonial Author -->
+                          <div class="testimonial-credits">
+                            <!-- Picture -->
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/harold.jpg" alt="Livingston LLC" />
+                            </div>
+                            <!-- /Picture -->
+                            <!-- Testimonial author information -->
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">Luke & Harold Livingston</p>
+                              <p class="testimonial-firm">Livingston LLC</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial author information -->
+                        </div>
+                        <!-- End of Testimonial 2 -->
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-item">
+
+                          <!-- Testimonial Content -->
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>This is so 🔥 Noelle. You have been one of the best to do it on all of these projects.
+                                I really hope that employers will quickly recognize your talent level. Make sure you are
+                                forking these projects over to your GitHub you have everything set up so well from the
+                                README explanations to the quality of code...high as always. Just an overall great
+                                product here.</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial Content -->
+
+                          <!-- Testimonial Author -->
+                          <div class="testimonial-credits">
+                            <!-- Picture -->
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/alan.jpg" alt="Alan Kostrick" />
+                            </div>
+                            <!-- /Picture -->
+                            <!-- Testimonial author information -->
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">Alan Kostrick</p>
+                              <p class="testimonial-firm">Project Feedback - Javascript Clicker</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial author information -->
+                        </div>
+                        <!-- End of Testimonial 3 -->
+
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial-item">
+
+                          <!-- Testimonial Content -->
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>This is a beautiful piece of work but you still haven't convinced me you are not
+                                already secretly a professional developer. Love the sticky nav, the responsive design
+                                and the use of css variables. You have shown some advanced technique in the coding and a
+                                great eye for design and choice of color scheme/images to use. Great work once again!
+                              </p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial Content -->
+
+                          <!-- Testimonial Author -->
+                          <div class="testimonial-credits">
+                            <!-- Picture -->
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/alan.jpg" alt="Alan Kostrick" />
+                            </div>
+                            <!-- /Picture -->
+                            <!-- Testimonial author information -->
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">Alan Kostrick</p>
+                              <p class="testimonial-firm">Project Feedback - Portfolio</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial author information -->
+                        </div>
+                        <!-- End of Testimonial 4 -->
+                      </div>
+                      <!-- /Testimonials Carousel Block -->
+                    </div>
+                  </div>
+                </div>
+                <!-- /Testimonials Block -->
+              </div>
             </div>
-            <div class="contact__card contact__card--two">
-                <img src="./assets/icon-git.png" alt="" class="contact__card--image">
-                <h4 class="contact__card--text"><a href="https://github.com/noellegisewhite" target="_blank">GitHub</a>
-                </h4>
+          </section>
+          <!-- End of Home Subpage -->
+
+          <!-- Resume Subpage -->
+          <section class="pt-page" id="resume">
+            <div class="section-inner custom-page-content">
+              <div class="section-title-block second-style">
+                <h2 class="section-title">Resume</h2>
+                <!-- <h5 class="section-description">7 Years of Experience</h5> -->
+              </div>
+
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-8">
+                    <div class="col-inner bs-30">
+                      <div class="block-title">
+                        <h3>Education</h3>
+                      </div>
+
+                      <div class="timeline timeline-second-style bs-30 clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2022</h5>
+                            <span class="item-company">We Can Code IT</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Certificate of Software Development</h4>
+                            <p>Relative Coursework: Front & Back End Development, React JS</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2013</h5>
+                            <span class="item-company">The Ohio State University</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Fine Arts - General Studio</h4>
+                            <p>Relative Coursework: Computer Programming</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="block-title">
+                        <h3>Experience<span></span></h3>
+                      </div>
+
+
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">October 2021 - Present</h5>
+                            <span class="item-company">Amazon</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Process Guide Trainer</h4>
+                            <p>Implemented a new project for Q4 “Peak” season to reduce jams and package conveyor belt
+                              congestion. Led a small team of five associates, averaging over 300,000 packages per week,
+                              increasing outbound production by 5% overall.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">June 2020 - Present</h5>
+                            <span class="item-company">DoorDash | Uber Eats</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Delivery Driver</h4>
+                            <p>Successfully completed over 500 deliveries maintaining above a 4.9 Star Customer Rating,
+                              100% Satisfaction Rating, and 100% Completion Rating.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">July 2014 - May 2021</h5>
+                            <span class="item-company">Bj’s Wholesale Club</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Merchandise & Shipping Lead</h4>
+                            <p>Pioneered brand new ‘OMNI Ship From Club’ ecommerce platform, leading my team to become
+                              one of the top clubs for order fulfillment, efficiency, and volume. Generating an
+                              additional $2M in revenue per year for the club.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-4">
+                    <div class="col-inner">
+
+                      <div class="block-title">
+                        <h3>Technical Inventory<span></span></h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 1 -->
+                        <div class="clearfix">
+                          <div class="tech-list">
+                            <h4>Java</h4>
+                            <h4>Javascript</h4>
+                            <h4>React JS</h4>
+                            <h4>Spring Boot</h4>
+                            <h4>HTML</h4>
+                            <h4>CSS</h4>
+                            <h4>JSX</h4>
+                            <h4>Thymeleaf</h4>
+                          </div>
+                          <!-- <div class="skill-value">95%</div> -->
+                        </div>
+                        <!-- <div class="skill-container">
+                          <div class="skill-percentage skill-1"></div>
+                        </div> -->
+                        <!-- /Skill 1 -->
+                      </div>
+
+                      <div class="block-title ts-10">
+                        <h3>Technologies & Frameworks<span></span></h3>
+                      </div>
+
+
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 5 -->
+                        <div class="clearfix">
+                          <div class="tech-list">
+                            <h4>Agile</h4>
+                            <h4>Scrum</h4>
+                            <h4>Axios</h4>
+                            <h4>Git Bash</h4>
+                            <h4>Github</h4>
+                            <h4>Json</h4>
+                            <h4>Node JS</h4>
+                            <h4>Relational Database</h4>
+                            <h4>Rest API</h4>
+                            <h4>Shopify</h4>
+                            <h4>Wordpress</h4>
+                            <h4>Model View Controller (MVC)</h4>
+                            <h4>Test Driven Development (TDD)</h4>
+                            <h4>Object Oriented Programing (OOP)</h4>
+                          </div>
+                          <!-- <div class="skill-value">85%</div> -->
+                        </div>
+                        <!-- <div class="skill-container">
+                          <div class="skill-percentage skill-5"></div>
+                        </div> -->
+                        <!-- /Skill 5 -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="col-inner ts-30">
+                      <a href="#" target="_blank" class="btn btn-primary">Download Resume</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="contact__card contact__card--three">
-                <img src="./assets/icon-mail.png" alt="" class="contact__card--image">
-                <h4 class="contact__card--text"><a href="#contact">Email Me</a></h4>
+          </section>
+          <!-- End of Resume Subpage -->
+
+
+          <!-- Portfolio Subpage -->
+          <section class="pt-page" id="portfolio">
+            <div class="section-inner custom-page-content">
+              <div class="section-title-block second-style">
+                <h2 class="section-title">Portfolio</h2>
+                <h5 class="section-description">Projects & Client Work</h5>
+              </div>
+
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <!-- Portfolio Content -->
+                    <div class="portfolio-content">
+
+                      <ul class="portfolio-filters">
+                        <li class="active">
+                          <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
+                        </li>
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_web-apps">Web Apps</a>
+                        </li>
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_client-work">Client Work</a>
+                        </li>
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_wordpress">Wordpress</a>
+                        </li>
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_shopify">Shopify</a>
+                        </li>
+                        <!-- <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube Videos</a>
+                        </li> -->
+                      </ul>
+
+                      <!-- Portfolio Grid -->
+                      <div class="portfolio-grid three-columns">
+
+                        <figure class="item lbaudio" data-groups='["category_all", "category_web-apps"]'>
+                          <div class="portfolio-item-img">
+                            <img src="images/portfolio/port2.png" alt="Rekindle" title="" />
+                            <a href="rekindle.html" class="ajax-page-load" title="Rekindle"></a>
+                          </div>
+
+                          <i class="far fa-file-alt"></i>
+                          <h4 class="name">Rekindle</h4>
+                          <span class="category">React Web App</span>
+                        </figure>
+
+                        <figure class="item standard" data-groups='["category_all", "category_web-apps"]'>
+                          <div class="portfolio-item-img">
+                            <img src="images/portfolio/port3.png" alt="JAC" title="" />
+                            <a href="mystery.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <i class="far fa-file-alt"></i>
+                          <h4 class="name">JAC Mystery Educator</h4>
+                          <span class="category">React Web App</span>
+                        </figure>
+
+                        <figure class="item lbvideo" data-groups='["category_all", "category_web-apps"]'>
+                          <div class="portfolio-item-img">
+                            <img src="images/portfolio/port4.png" alt="Africa" title="" />
+                            <a href="africa.html" class="ajax-page-load" title="African Adventure"></a>
+                          </div>
+
+                          <i class="far fa-file-alt"></i>
+                          <h4 class="name">African Adventure</h4>
+                          <span class="category">Thymeleaf Web App</span>
+                        </figure>
+
+                        <figure class="item standard"
+                          data-groups='["category_all", "category_web-apps", "category_client-work"]'>
+                          <div class="portfolio-item-img">
+                            <img src="images/portfolio/port1.png" alt="Stark" title="" />
+                            <a href="stark.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <i class="far fa-file-alt"></i>
+                          <h4 class="name">Stark Track</h4>
+                          <span class="category">React Tracker</span>
+                        </figure>
+
+                        <figure class="item lbimage"
+                          data-groups='["category_all", "category_client-work", "category_shopify"]'>
+                          <div class="portfolio-item-img">
+                            <img src="images/portfolio/port6.png" alt="Bark Poster" title="" />
+                            <a class="ajax-page-load" title="Bark Poster" href="barkposter.html"></a>
+                          </div>
+
+                          <i class="far fa-file-alt"></i>
+                          <h4 class="name">Bark Poster</h4>
+                          <span class="category">Shopify</span>
+                        </figure>
+
+                        <figure class="item lbvideo"
+                          data-groups='["category_all", "category_client-work", "category_shopify"]'>
+                          <div class="portfolio-item-img">
+                            <img src="images/portfolio/port5.png" alt="Tape Vibe" title="" />
+                            <a href="tapevibe.html" class="ajax-page-load" title="Tape Vibe"></a>
+                          </div>
+
+                          <i class="far fa-file-alt"></i>
+                          <h4 class="name">Tape Vibe</h4>
+                          <span class="category">Shopify</span>
+                        </figure>
+                      </div>
+                    </div>
+                    <!-- /Portfolio Content -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /Portfolio Subpage -->
+
+          <!-- Contact Subpage -->
+          <section class="pt-page" id="contact">
+            <div class="section-inner custom-page-content">
+              <div class="section-title-block second-style">
+                <h2 class="section-title">Contact</h2>
+                <h5 class="section-description">Get in Touch</h5>
+              </div>
+
+              <!-- Contact Info -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-3">
+                  <div class="col-inner bs-30">
+                    <div class="lm-info-block gray-default">
+                      <i class="lnr lnr-phone-handset"></i>
+                      <h4>330-400-1723</h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-3">
+                  <div class="col-inner bs-30">
+                    <div class="lm-info-block gray-default">
+                      <i class="lnr lnr-map-marker"></i>
+                      <h4>Greater Cleveland Area</h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-3">
+                  <div class="col-inner bs-30">
+                    <div class="lm-info-block gray-default">
+                      <i class="lnr lnr-envelope"></i>
+                      <h4>NoelleGisewhite@gmail.com</h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-3">
+                  <div class="col-inner bs-30">
+                    <div class="lm-info-block gray-default">
+                      <i class="lnr lnr-checkmark-circle"></i>
+                      <h4>Open To Relocate & Remote</h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /Contact Info -->
+
+              <!-- Contact form -->
+              <div class="row">
+                <div class=" col-xs-12 col-sm-8 offset-sm-1 offset-sm-2">
+                  <div class="col-inner ts-20">
+                    <div class="block-title">
+                      <h3>How Can I Help You?</h3>
+                    </div>
+
+                    <form id="contact_form" class="contact-form" action="https://formsubmit.co/0ec9777ef029af2f58db54b591588f6b" method="post">
+
+                      <div class="messages"></div>
+
+                      <div class="controls two-columns">
+                        <div class="fields clearfix">
+                          <div class="left-column">
+                            <div class="form-group form-group-with-icon">
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name"
+                                required="required" data-error="Name is required.">
+                              <div class="form-control-border"></div>
+                              <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="form-group form-group-with-icon">
+                              <input id="form_email" type="email" name="email" class="form-control"
+                                placeholder="Email Address" required="required" data-error="Valid email is required.">
+                              <div class="form-control-border"></div>
+                              <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="form-group form-group-with-icon">
+                              <input id="form_subject" type="text" name="subject" class="form-control"
+                                placeholder="Subject" required="required" data-error="Subject is required.">
+                              <div class="form-control-border"></div>
+                              <div class="help-block with-errors"></div>
+                            </div>
+                          </div>
+                          <div class="right-column">
+                            <div class="form-group form-group-with-icon">
+                              <textarea id="form_message" name="message" class="form-control" placeholder="Message"
+                                rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                              <div class="form-control-border"></div>
+                              <div class="help-block with-errors"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
+
+                        <input type="submit" class="button btn-send" value="Send message">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- /Contact form -->
             </div>
         </div>
-    </header>
-    <!--============================= MAIN =============================-->
-    <main>
-        <!-- about me -->
-        <div class="blank__div"></div>
-        <section id="about-me">
-            <figure class="about__fig">
-                <img src="./assets/hello-dark.gif" alt="" class="about__fig--image">
-            </figure>
-            <div class="about__text">
-                <h2 class="about__text--heading">About Me</h2>
-                <p class="about__text--para">I'm a Full Stack Software Developer in the Cleveland Metropolitan area. I
-                    specialize in front end development, Wordpress, Shopify, and branding. I have a 10+ year background
-                    in management, shipping, and retail.</p>
-            </div>
         </section>
+        <!-- End Contact Subpage -->
 
-        <!-- portfolio -->
-        <section id="portfolio">
-            <div class="portfolio__title">
-                <h2 class="portfolio__title--heading">Portfolio</h2>
-            </div>
-            <div class="portfolio__items">
-                <article class="portfolio__element portfolio__item--one">
-                    <img src="./assets/port-bark-svg.svg" alt="project one"
-                        class="portfolio__items--images portfolio__images--proj1">
-                    <div class="portfolio__tags">
-                        <ul>
-                            <li>Ecommerce</li>
-                            <li>Shopify</li>
-                            <li>Product</li>
-                            <li>Branding</li>
-                        </ul>
-                    </div>
-                    <h5 class="portfolio__heading">BarkPoster.com | Shopify Store</h5>
-                    <p>BarkPoster is a fully functional Shopify ecommerce store. I designed all elements of the
-                        brand including products, graphics, and website.</p>
-                    <div class="portfolio__element--btn-all">
-                        <button><a href="https://barkposter.com/" target="_blank">View Project</a></button>
-                    </div>
-                </article>
-                <article class="portfolio__element portfolio__item--two">
-                    <img src="./assets/port-well.svg" alt="project two"
-                        class="portfolio__items--images portfolio__images--proj2">
-                    <div class="portfolio__tags">
-                        <ul>
-                            <li>Blog</li>
-                            <li>Wordpress</li>
-                            <li>Branding</li>
-                            <li>Graphics</li>
-                        </ul>
-                    </div>
-                    <h5 class="portfolio__heading">CrownedWell.com | Wordpress</h5>
-                    <p>CrownedWell.com is a Wordpress blog in the health niche. For this project, I designed the site
-                        layout, content, and graphics.</p>
-                    <div class="portfolio__element--btn-all">
-                        <button><a href="https://crownedwell.com/" target="_blank">View Project</a></button>
-                    </div>
-                </article>
-                <article class="portfolio__element portfolio__item--three">
-                    <img src="./assets/stock-data.svg" alt="project three"
-                        class="portfolio__items--images portfolio__images--proj3">
-                    <div class="portfolio__tags">
-                        <ul>
-                            <li>Application</li>
-                            <li>Full Stack</li>
-                            <li>Team</li>
-                            <li>Java</li>
-                        </ul>
-                    </div>
-                    <h5 class="portfolio__heading">Lorem, ipsum dolor</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A nisi facere quos at odit aut excepturi
-                        quo tempora, voluptatum asperiores?</p>
-                    <div class="portfolio__element--btn-all">
-                        <button><a href="#">View Project</a></button>
-                        <button><a href="#">GitHub</a></button>
-                    </div>
-                </article>
-                <article class="portfolio__element portfolio__item--four">
-                    <img src="./assets/stock-puzzle.svg" alt="project four"
-                        class="portfolio__items--images portfolio__images--proj4">
-                    <div class="portfolio__tags">
-                        <ul>
-                            <li>Mobile App</li>
-                            <li>Javascript</li>
-                            <li>Game</li>
-                            <li>Team</li>
-                        </ul>
-                    </div>
-                    <h5 class="portfolio__heading">Lorem, ipsum dolor</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ad cumque sit sunt molestiae
-                        illum veritatis suscipit ut odit facilis.
-                    </p>
-                    <div class="portfolio__element--btn-all">
-                        <button><a href="#">View Project</a></button>
-                        <button><a href="#">GitHub</a></button>
-                    </div>
-                </article>
-                <article class="portfolio__element portfolio__item--five">
-                    <img src="./assets/stock-robot.svg" alt="project five"
-                        class="portfolio__items--images portfolio__images--proj5">
-                    <div class="portfolio__tags">
-                        <ul>
-                            <li>Application</li>
-                            <li>Team</li>
-                            <li>Javascript</li>
-                            <li>HTML/CSS</li>
-                        </ul>
-                    </div>
-                    <h5 class="portfolio__heading">Lorem, ipsum dolor</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ad cumque sit sunt molestiae
-                        illum veritatis suscipit ut odit facilis.</p>
-                    <div class="portfolio__element--btn-all">
-                        <button><a href="#">View Project</a></button>
-                        <button><a href="#">GitHub</a></button>
-                    </div>
-                </article>
-                <article class="portfolio__element portfolio__item--six">
-                    <img src="./assets/stock-rocket.svg" alt="project six"
-                        class="portfolio__items--images portfolio__images--proj6">
-                    <div class="portfolio__tags">
-                        <ul>
-                            <li>Website</li>
-                            <li>Javascript</li>
-                            <li>HTML/CSS</li>
-                            <li>Design</li>
-                        </ul>
-                    </div>
-                    <h5 class="portfolio__heading">Lorem, ipsum dolor</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi incidunt quod rem. Earum saepe
-                        sapiente est quod alias reiciendis ipsum.</p>
-                    <div class="portfolio__element--btn-all">
-                        <button><a href="#">View Project</a></button>
-                        <button><a href="#">GitHub</a></button>
-                    </div>
-                </article>
-            </div>
-        </section>
+      </div>
+    </div>
+    <!-- /Page changer wrapper -->
+  </div>
+  <!-- /Main Content -->
+  </div>
 
-        <!-- work history -->
-        <section id="work-history">
-            <div class="work__text">
-                <h2 class="work__text--heading">Work History</h2>
-            </div>
-            <div class="work__timeline">
-                <div class="row work__timeline--card-1">
-                    <h4>Amazon | Process Guide</h4>
-                    <p>Responsible for supervising sections of the shipping dock, associate training, outbound problem
-                        solve/quality control, air sort.</p>
-                </div>
-                <div class="row work__timeline--card-2">
-                    <h4>Raising Cane's Chicken Fingers | Shift Manager</h4>
-                    <p>Managed all aspects of the shift for brand new restaurant opening.
-                        Ensured adherence to Raising Cane’s high standards of cleanliness, efficiency, and customer
-                        service. Supported the facility in all areas that impact the business including coaching and
-                        training Crew, inventory management, reporting, receiving, waste monitoring, and daily cash
-                        procedures.</p>
-                </div>
-                <div class="row work__timeline--card-3">
-                    <h4>Bj's Wholesale Club | Merchandise & Shipping Lead</h4>
-                    <p>Lead supervisor for Bj's new shipping and merchandise department. Led our team to becoming one of
-                        the top clubs for order fulfillment and volume. Responsible for training, coaching, inventory,
-                        quality control, reporting, and order fulfillment.</p>
-                </div>
-                <div class=" row work__timeline--card-4">
-                    <h4>Bj's Wholesale Club | Frontline Trainer</h4>
-                    <p>Trained over 40 coworkers and managers on club processes including Membership Management computer
-                        applications, asset protection, customer service, and membership acquisition.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- <section id="testimonials">
-            <h2 class="testimonial__heading">Testimonials</h2>
-        </section> -->
-
-        <section id="contact">
-            <h2 class="contact__heading">Let's Chat!</h2>
-            <form action="https://formsubmit.co/0ec9777ef029af2f58db54b591588f6b" method="POST" class="form__container">
-                <input type="text" name="name" placeholder="Name" required class="form__field form__field--name">
-                <input type="email" name="email" placeholder="Email" required class="form__field form__field--email">
-                <textarea type="text" name="message" placeholder="Message" required
-                    class="form__field form__field--message"></textarea>
-                <input type="text" name="_honey" style="display:none">
-                <button type="submit" class="form__button">SEND</button>
-            </form>
-        </section>
-        <!-- 
-        <section id="credits">
-            <h2 class="credit__heading">Credits</h2>
-        </section> -->
-        <section>
-            <footer id="footer">
-                <!-- <h2 class="footer__heading">Footer</h2> -->
-                <p>&copy; Copyright Noelle Gisewhite</p>
-            </footer>
-        </section>
-    </main>
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+  <script src="js/jquery.shuffle.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.googlemap.js"></script>
+  <script src="js/validator.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
